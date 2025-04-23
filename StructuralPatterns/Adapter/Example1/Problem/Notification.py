@@ -23,6 +23,7 @@ if __name__ == "__main__":
     sendgrid_service = SendGridNotificationService()
     # sendgrid_service.send_notification("Hello, this is a SendGrid notification!")
     # This will raise an error because the method does not exist
+    # It is tightly coupled with SednGridNotificationService
 
     # Problems
     # 1. cant allow Plug and Play
